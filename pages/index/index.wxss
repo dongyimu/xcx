@@ -1,0 +1,47 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+
+/* 让 swiper 占满页面宽度，高度可自行设置 */
+.swiper-image {
+  width: 100%;
+  height: 100%;
+  /* 你可以根据需求调整高度 */
+  object-fit: cover;
+  /* 让图片自适应容器 */
+}
+
+.pic {
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
+}
+
+.gn {
+  background-color: #ffffff;
+  /* 设置背景色 */
+  padding: 20px;
+  /* 内边距 */
+  border-radius: 10px;
+  /* 圆角效果，数值越大圆角越明显 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 可选，添加阴影效果 */
+}
+
+.vc {
+  background-color: #141313;
+  color: #f3b200;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  /* 圆角效果，数值越大圆角越明显 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 可选，添加阴影效果 */
+}
